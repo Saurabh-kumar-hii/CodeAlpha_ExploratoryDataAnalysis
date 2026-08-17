@@ -1,35 +1,74 @@
-# Superstore Exploratory Data Analysis
+# Superstore Exploratory Data Analysis & Visualization
 
 ## Project Overview
 
-This project performs Exploratory Data Analysis (EDA) on the Superstore dataset to understand sales, profit, customers, products, discounts, and regional performance.
+This project analyzes the Superstore dataset using Python to understand sales performance, customer behavior, product categories, shipping patterns, and regional performance.
 
-The analysis uses Python and popular data analysis and visualization libraries to explore the dataset, identify patterns, detect outliers, and generate meaningful business insights.
+The project consists of two tasks:
+
+- **Task 1:** Exploratory Data Analysis
+- **Task 2:** Data Visualization & Business Insights
+
+---
 
 ## Objectives
 
-- Understand the structure and characteristics of the dataset
-- Perform data cleaning and preprocessing
+- Clean and understand the dataset
 - Analyze numerical and categorical variables
-- Explore sales and profit distributions
-- Identify outliers and unusual observations
-- Analyze relationships between different variables
-- Study sales and profit across categories, regions, and segments
-- Generate meaningful insights through data visualization
+- Explore sales distributions and patterns
+- Analyze sales across categories and sub-categories
+- Study monthly sales trends
+- Analyze customer and regional performance
+- Analyze shipping duration
+- Create meaningful visualizations
+- Generate business insights
 
-## Dataset
+---
 
-The dataset contains information about Superstore orders, including:
+## Task 1 — Exploratory Data Analysis
 
-- Order and shipping information
-- Customer details
-- Product details
-- Sales
-- Quantity
-- Discount
-- Profit
-- Category and sub-category
-- Region and other business-related attributes
+`Superstore_EDA.ipynb`
+
+Includes:
+
+- Dataset inspection
+- Data types and structure analysis
+- Missing-value analysis and handling
+- Duplicate analysis
+- Descriptive statistics
+- Numerical and categorical variable analysis
+- Sales distribution
+- Category and segment analysis
+- Month-wise sales analysis
+
+---
+
+## Task 2 — Data Visualization & Business Insights
+
+`EDA_Visualisation.ipynb`
+
+Includes:
+
+- Sales distribution
+- Category-wise sales analysis
+- Average sales by sub-category
+- Total sales by category
+- Monthly sales trend
+- Category vs Region sales heatmap
+- Top 10 customers by sales
+- Shipping-time distribution
+- Orders by day of the week
+
+### Key Insights
+
+- Most transactions generate relatively low sales, while high-value transactions occur less frequently.
+- Technology has the highest total sales among the three main categories.
+- Sales performance varies across categories and regions.
+- A small number of customers contribute significantly higher sales.
+- Most orders are shipped within a relatively short period.
+- Order activity varies across different days of the week.
+
+---
 
 ## Technologies Used
 
@@ -39,38 +78,17 @@ The dataset contains information about Superstore orders, including:
 - Matplotlib
 - Seaborn
 - Jupyter Notebook
+- VS Code
+- Git & GitHub
 
-## Exploratory Data Analysis
+---
 
-The project includes:
+## Project Structure
 
-- Data loading and inspection
-- Data structure and data types analysis
-- Missing-value analysis
-- Descriptive statistics
-- Numerical variable analysis
-- Categorical variable analysis
-- Distribution analysis
-- Outlier detection
-- Correlation analysis
-- Data visualization
-- Business-oriented insights
-
-## Project Files
-
-| File | Description |
-|---|---|
-| `Superstore_EDA.ipynb` | Complete Exploratory Data Analysis notebook |
-| `superstore_dataset.csv` | Dataset used for the analysis |
-
-## How to Run
-
-1. Clone this repository.
-2. Open the project folder in VS Code or Jupyter Notebook.
-3. Open `Superstore_EDA.ipynb`.
-4. Make sure `superstore_dataset.csv` is in the same directory.
-5. Run the notebook cells sequentially.
-
-## Author
-
-**Saurabh Kumar**
+```text
+CodeAlpha_ExploratoryDataAnalysis/
+│
+├── Superstore_EDA.ipynb
+├── EDA_Visualisation.ipynb
+├── superstore_dataset.csv
+└── README.md
